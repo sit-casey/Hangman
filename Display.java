@@ -381,7 +381,7 @@ public class Display extends JFrame {
 								JOptionPane.showMessageDialog(null, "Try again on a harder difficulty or another category!");
 								System.exit(0);
                             }
-                            guess.setText(" "); //Resets the JTextfield after every guess
+                            guess.setText(""); //Resets the JTextfield after every guess
 						}
 						else{	//If the guess was incorrect
 							tries--;	//Deducts # of guesses
